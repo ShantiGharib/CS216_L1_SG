@@ -13,7 +13,7 @@ private:
 public:
 	NumsArray();
 	void AddElement(const int val);
-	size_t length = EMPTY;
+	int length = EMPTY;
 	bool IsNotFull() const;
 	bool IsSorted() const;
 	long long FindSum() const;
