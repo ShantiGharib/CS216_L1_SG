@@ -46,7 +46,7 @@ const std::string INPUT_FILE  =  "in_numbers.txt",
 		  OUTPUT_FILE = "out_results.txt";
 int main() {
 	std::fixed; std::setprecision(2);
-	NumberStatistics obj = NumberStatistics();
+	NumberStatistics obj;
 	static constexpr const int PRINT_STATS = 1, PRINT_ALL_VALUES = 2, QUIT_AND_SAVE = 3; 
 	int option = 0;
 	while ( option != QUIT_AND_SAVE ) {
