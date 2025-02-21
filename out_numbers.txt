@@ -1,0 +1,14 @@
+Numbers divisible by five:
+    -540 -270 -135 -90 -45 45 90 135 270 540 
+
+Sum: 0
+Average: 0
+Median: 0
+
+
+Numbers divisible by nine:
+    -540 -270 -135 -90 -45 45 90 135 270 540 
+
+Sum: 0
+Average: 0
+Median: 0
