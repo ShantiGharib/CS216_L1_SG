@@ -162,8 +162,8 @@ void NumberStatistics::ExportData() {
 	std::ofstream fileOutput(OUTPUT_FILE);
 	if ( fileOutput.is_open() ) {
 		PrintArraysSeparately(fileOutput);
+		fileOutput.close();
 	}
-	fileOutput.close();
 }
 void NumberStatistics::PrintArraysSeparatelyHelper(NumsArray &source, std::ostream &stream) {
 	source.DisplayValuesToConsole(stream);
