@@ -198,8 +198,6 @@ void NumberStatistics::PrintAllValues() {
 	{
 		int Mod5Idx = 0, Mod9Idx = 0, ModNullIdx = 0;
 		while (Mod5Idx < Mod5.length || Mod9Idx < Mod9.length || ModNullIdx < ModNull.length) {
-			//Skip Duplicates
-			while (Mod5Idx != Mod5.length && Mod5.GetElement(Mod5Idx) % 9 == 0) ++Mod5Idx;
 			if (Mod5Idx == Mod5.length) {
 				PrintAllValuesHelper(Mod9, Mod9Idx, ModNull, ModNullIdx);
 			}
@@ -290,7 +288,7 @@ Choose an option:
 
 2
 
-Numbers: -333333 -123294 -78 -19 0 0 0 0 5 19 100 120 129 230 234 340 394 503 666 777 5544 44444 329190 392304
+Numbers: -333333 -123294 -78 -19 0 0 0 0 0 0 0 0 5 19 100 120 129 230 234 340 394 503 666 777 5544 44444 329190 392304
 
 
 
@@ -490,7 +488,7 @@ Choose an option:
 
 2
 
-Numbers: -540 -270 -135 -90 -45 45 90 135 270 540
+Numbers: -540 -540 -270 -270 -135 -135 -90 -90 -45 -45 45 45 90 90 135 135 270 270 540 540
 
 
 
