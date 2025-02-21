@@ -43,7 +43,7 @@ public:
 };
 
 const std::string INPUT_FILE  =  "in_numbers.txt", 
-		           OUTPUT_FILE = "out_numbers.txt";
+		  OUTPUT_FILE = "out_results.txt";
 int main() {
 	std::fixed; std::setprecision(2);
 	NumberStatistics obj = NumberStatistics();
